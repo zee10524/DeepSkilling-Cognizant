@@ -1,0 +1,12 @@
+<nav class="navbar">
+  <span class="brand">🅰️ Angular Router</span>
+  <div class="nav-links">
+    <a routerLink="/home"     routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">Home</a>
+    <a routerLink="/about"    routerLinkActive="active">About</a>
+    <a routerLink="/products" routerLinkActive="active">Products</a>
+    <a routerLink="/contact"  routerLinkActive="active">Contact</a>
+  </div>
+</nav>
+<div class="page-content">
+  <router-outlet></router-outlet>
+</div>
